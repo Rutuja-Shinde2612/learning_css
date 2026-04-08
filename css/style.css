@@ -7,3 +7,67 @@ h4{
     font-size: 30px;
 
 }
+/* class_id_selectors */
+.heading1{
+          color:black;
+          background-color:yellowgreen;
+
+}
+.heading2{
+           color: aqua;
+           background-color: brown;
+}
+.para{
+       background-color: black;
+       color: white;
+}
+
+#head2{
+      color:blueviolet;
+      background-color:gray;
+      font-size: 40px;
+}
+.head_index{
+              color:red;
+}
+.head_size{
+            font-size: 30px;
+}
+#head_about{
+             background-color: aqua;
+}
+
+/* text format */
+
+.t_transform_upper{
+    text-transform: uppercase;
+   
+}
+.t_transform_lower{
+    text-transform: lowercase;
+}
+.t_transform_capitalization{
+    text-transform: capitalize;
+}
+.t_center{
+           text-align: center;
+}
+.t_right{
+          text-align: right;
+}
+.t_decor_underline{
+    text-decoration: overline;
+}
+.t_decor_overline{
+    text-decoration: underline;
+}
+.t_decor_line_through{
+    text-decoration: line-through;
+}
+.t_decor_mix{
+               text-decoration: overline underline line-through;
+}
+.t_indent{
+          text-indent:180px;
+}
+   
