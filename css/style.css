@@ -70,4 +70,40 @@ h4{
 .t_indent{
           text-indent:180px;
 }
-   
+.t_letter_spac{
+                letter-spacing: 15px;
+}
+.t_word_space{
+    word-spacing: 15px;
+}
+.para_line_height{
+    line-height: 35px;
+}
+.t_shadow{
+           color:red;
+           font-size: 50px;
+           text-shadow:4px 4px 2px black;
+}
+.t_shadow2{
+    color:rgb(140, 75, 202);
+    font-size: 50px;
+    text-shadow:5px 3px 2px gray;
+}
+   /* shadow... */
+
+   .img_b_shadow{
+                    height:200px;
+                    width:200px;
+                  box-shadow:8px 9px 2px rgb(198, 219, 94);
+   }
+
+   .img2_b_shadow{
+                 height:300px;
+                    width:300px;
+                filter: drop-shadow(6px 6px 6px red);
+   }
+   .img3_b_shadow{
+                  height:300px;
+                    width:300px;
+                   filter:drop-shadow(6px 6px 5px rgb(109, 96, 181));
+   }
