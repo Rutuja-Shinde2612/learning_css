@@ -107,3 +107,184 @@ h4{
                     width:300px;
                    filter:drop-shadow(6px 6px 5px rgb(109, 96, 181));
    }
+
+/* Border */
+
+.img_border{
+    /* solid,dashed,dotted,inset,outset,groove*/
+                border: 4px solid black;
+                height: 200px;
+                
+}
+.img1_border{
+              border:7px dashed red;
+              height: 200px;
+}
+.img2_border{
+              border:7px dotted blue;
+              height: 200px;
+}
+.img3_border{
+              border:7px inset purple;
+              height: 200px;
+}
+.img4_border{
+              border:7px outset palevioletred;
+              height: 200px;
+}
+.img5_border{
+              border:7px groove aqua;
+              height: 200px;
+}
+
+/* border radius */
+
+ .img_border_radius{
+                      height:300px;
+                      width: 400px;
+                      border:14px solid black;
+                      border-radius:40px 40px 40px 40px ;
+ }
+ .img2_border_radius{
+                      height:300px;
+                      width: 400px;
+                      border:14px solid red;
+                      border-radius:40px 60px;
+ }
+  .img3_border_radius{
+                      height:300px;
+                      width: 400px;
+                      border:14px solid yellow;
+                      border-radius:40px 30px 20px 60px;
+ }
+ /* different color of borders */
+  .img4_border_radius{
+                      height:300px;
+                      width: 400px;
+                      border:14px solid yellow;
+                      /* border-color: red blue green orange; */
+                      border-color:red green;
+ }
+
+ .bg_img{
+              background-image: url("/images/bacground_img1.jpg");
+ }
+
+
+
+/* Positions...... */
+.box{
+      width: 250px;
+      height: 150px;
+      border: 5px solid black;
+      background-color: palevioletred;
+      margin-bottom:10px ;
+}
+.box1{
+    position: static;
+}
+.box2{
+    position: relative;
+    top:30px;
+    left:300px;
+  
+}
+.box3{
+    position: absolute;
+    top:20px;
+    left:300px;
+}
+.box4{
+    position: sticky;
+    top:0px;
+}
+.box5{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+}
+
+/* flex... */
+
+.flex_item{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex_container{
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+/* gallary .... */
+
+.gallary_item{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    transform: scale(1.5);
+}
+.gallary_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-evenly;
+    transition: transform 2s linear;
+}
+/* psudeo class and selector */
+/* Hover Effect.... */
+
+h1:hover{
+           color: red;
+           background-color: blueviolet;
+        
+}
+.heading_hover:hover{
+                       color: pink;
+                       font-size: 60px;
+                       text-shadow: 5px 5px 4px red;
+}
+/* Active */
+.active_effect:active{
+                        color:red;
+                        font-size: 40px;
+                        cursor: pointer;
+                        
+}
+/* focus */
+
+input:focus{
+               border:4px solid red;
+               border-radius: 10px;
+               padding: 5px;
+}
+
+/* visited */
+a:visited{
+           color:green;
+}
+
+.pseduoelement_effect::first-letter{
+                       color:red;
+                       font-size: 40px;
+}
+.pseduoelement_effect::first-line{
+                    color: blue;
+}
+/* selection */
+::selection{
+               color:white;
+               background-color:gray;
+}
