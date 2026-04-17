@@ -288,3 +288,58 @@ a:visited{
                color:white;
                background-color:gray;
 }
+
+/* imagezoomonhover */
+
+.img-wrapper{
+    width:620px;
+    height: 350px;
+    border:10px solid red;
+    position: relative;
+    overflow: hidden;
+
+}
+.inner-img{
+    height: 100%;
+    width: 100%;
+    transition: 5s;
+    object-fit: cover;
+
+}
+.inner-img:hover{
+    transform: scale(2);
+}
+/* nth child Example */
+
+ul{
+    width: 200px;
+    padding:10px;
+    list-style-type: none;
+    font-weight: 900;
+
+}
+li{
+    padding: 10px;
+    border:1px solid gray;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+/* li:nth-child(odd){
+       background-color:rgb(221, 215, 215);
+       
+}
+li:nth-child(even){
+    background-color: rgb(239, 161, 187);
+} */
+
+li:first-child{
+    background-color: rgb(219, 158, 219);
+}
+
+li:nth-child(5){
+                      background-color: rgb(218, 165, 165);
+           
+}
+li:last-child{
+                   background-color: rgb(148, 207, 207);
+}
